@@ -25,7 +25,7 @@ export class TodoListComponent {
   }
 
   onRemoveTask(id: number) {
-    const position=id+1
+    const position=id;
     this.tasks.splice(position, 1);
   }
   tackByFn(index:number,item:any){
